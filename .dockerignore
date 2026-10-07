@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.h5
+*.model
+.env
+venv
+.git
+.gitignore

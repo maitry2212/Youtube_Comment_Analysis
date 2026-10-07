@@ -1,0 +1,26 @@
+from setuptools import find_packages, setup
+
+setup(
+    name = 'youtube_comment_analysis',
+    version= '0.0.0',
+    author= 'Kartik',
+    author_email= 'kartikjambuch@gmail.com',
+    packages= find_packages(),
+    install_requires = [
+        'fastapi==0.115.0',
+        'uvicorn==0.31.0',
+        'fastapi-cors==0.0.6',
+        'joblib==1.4.2',
+        'lightgbm==4.5.0',
+        'matplotlib==3.9.2',
+        'mlflow==2.17.0',
+        'dvc==3.53.0',
+        'dvc[s3]',
+        'nltk==3.9.1',
+        'numpy==2.1.2',
+        'pandas==2.2.3',
+        'wordcloud==1.9.3',
+        'seaborn==0.13.2',
+        'scikit-learn==1.5.2',
+    ]
+)
